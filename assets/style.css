@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k558dz');
+  src:  url('fonts/icomoon.eot?k558dz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k558dz') format('truetype'),
+    url('fonts/icomoon.woff?k558dz') format('woff'),
+    url('fonts/icomoon.svg?k558dz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+  content: "\e908";
+}
+.icon-twitter:before {
+  content: "\e90a";
+}
+.icon-linkedin:before {
+  content: "\e909";
+}
+.icon-mail:before {
+  content: "\e905";
+}
+.icon-map-pin:before {
+  content: "\e906";
+}
+.icon-phone:before {
+  content: "\e907";
+}
+.icon-wifi:before {
+  content: "\e904";
+}
+.icon-video:before {
+  content: "\e902";
+}
+.icon-crosshair:before {
+  content: "\e903";
+}
+.icon-shopping-cart:before {
+  content: "\e900";
+}
+.icon-user:before {
+  content: "\e901";
+}

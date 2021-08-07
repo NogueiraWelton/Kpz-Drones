@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>KpzDrones</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="grid">
+      <div class="logo-container">
+        <h1 class="logo">Kpz</h1>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-menu">
+          <div class="header-nav-menu-links">
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre</a></li>
+          </div>
+          <div class="header-nav-menu-icons">
+            <li><a href="#"><i class="header-icon icon-user"><span>Minha Conta</span></i></a></li>
+            <li><a href="#"><i class="header-icon icon-shopping-cart"><span>Meu Carrinho</span></i></a></li>
+          </div>
+        </ul>
+        <i class="hamburguer-menu">
+          <div class="slice"></div>
+          <div class="slice"></div>
+          <div class="slice"></div>
+        </i>
+      </nav>
+    </div>
+  </header>
+  <section class="intro">
+    <h1>O Futuro é dos Drones</h1>
+    <p>Explore as novidades no site</p>
+    <a class="call-button" href="">Comprar Drone</a>
+  </section>
+  <section class="drones scroll">
+    <h2>Nossos Drones</h2>
+    <div class="drones-infocards-container">
+      <div class="infocard">
+        <i class="drones-icon icon-crosshair"></i>
+        <span>Precisão </span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend odio ex, vel pharetra mauris dapibus at. Sed eget mollis lacus. Mauris auctor molestie tellus, et pulvinar lorem consectetur sed.</p>
+      </div>
+      <div class="infocard">
+        <i class="drones-icon icon-video"></i>
+        <span>Qualidade</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend odio ex, vel pharetra mauris dapibus at. Sed eget mollis lacus. Mauris auctor molestie tellus, et pulvinar lorem consectetur sed.</p>
+      </div>
+      <div class="infocard">
+        <i class="drones-icon icon-wifi"></i>
+        <span>Wireless</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend odio ex, vel pharetra mauris dapibus at. Sed eget mollis lacus. Mauris auctor molestie tellus, et pulvinar lorem consectetur sed.</p>
+      </div>
+    </div>
+    <a class="call-button" href="">Ver Mais</a>
+  </section>
+  <div class="divider-in"></div>
+  <div class="models-container">
+    <section class="models scroll">
+      <h2>Modelos</h2>
+      <div class="modelcards-container">
+        <div class="modelcard">
+          <span>Phantom</span>
+          <img src="img/phantom.png" alt="">
+        </div>
+        <div class="modelcard">
+          <span>Inspire</span>
+          <img src="img/inspire.png" alt="">
+        </div>
+        <div class="modelcard">
+          <span>Spark</span>
+          <img src="img/spark.png" alt="">
+        </div>
+        <div class="modelcard">
+          <span>Mavic</span>
+          <img src="img/mavic.png" alt="">
+        </div>
+      </div>
+      <p>Trabalhamos com os principais modelos do mercado de forma totalmente
+        personalizavel e com acessórios de alta performance e desempenho, garantindo
+        sempre 100% de qualidade nas diversas atividades do dia-a-dia.</p>
+      <a class="call-button" href="">Fazer Orçamento</a>
+    </section>
+  </div>
+  <div class="divider-out"></div>
+  <section class="contact grid scroll">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco e faça já um orçamento ou assine
+      o nosso newsletter e receba sempre as principais novidades
+      na íntegra diretamente no seu E-mail.</p>
+    <form action="" class="contact-form">
+      <label for="name">Nome:</label>
+      <input name="tel" id="name" type="text" required>
+      <label for="tel">Telefone:</label>
+      <input name="tel" id="tel" type="tel" maxlength="11" required>
+      <label for="email">E-mail:</label>
+      <input name="email" id="email" type="email" required>
+      <label for="message">Mensagem:</label>
+      <textarea name="message" id="message" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="contact-info">
+      <span class="contact-info-label">Informações de contato:</span>
+      <div class="contact-method">
+        <i class="contact-icon icon-phone"></i>
+        <span>99 99999 - 9999</span>
+      </div>
+      <div class="contact-method">
+        <i class="contact-icon icon-map-pin"></i>
+        <span>R.Lorem, 99 - Maricá-RJ</span>
+      </div>
+      <div class="contact-method">
+        <i class="contact-icon icon-mail"></i>
+        <span>welton.nogueira.dev@gmail.com</span>
+      </div>
+      <a target="_blank" class="whatsapp-button" href="https://api.whatsapp.com/send?phone=21975358927&text=Olá Dev!">
+        <i class="contact-icon icon-whatsapp"></i>
+        Entrar em Contato
+      </a>
+    </div>
+  </section>
+  <div class="divider-in"></div>
+  <div class="newsletter-container">
+    <section class="newsletter grid">
+      <h2>Assine o nosso NewsLetter</h2>
+      <form class="newsletter-form" action="">
+        <input type="email" placeholder="E-mail" required>
+        <button type="submit">ASSINAR</button>
+      </form>
+      <div class="quote">
+        <blockquote>"Existem muitos caminhos para o topo da montanha, mas apenas uma visão."</blockquote>
+        <cite>Harry Millner</cite>
+      </div>
+    </section>
+  </div>
+  <div class="divider-out"></div>
+  <footer class="footer">
+    <p>&copy;2021 - Kpz Drones by Welton Nogueira </p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
