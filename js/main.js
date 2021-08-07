@@ -20,6 +20,7 @@ function toggleMenu() {
   const menu = document.querySelector(".header-nav-menu");
   const links = document.querySelectorAll(".header-nav-menu li a");
 
+  openMenu.classList.toggle("active");
   menu.classList.toggle("active");
   links.forEach((link) => {
     link.addEventListener("click", () => {
