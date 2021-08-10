@@ -1,5 +1,6 @@
 const scrollSections = document.querySelectorAll(".scroll");
 const halfWindow = window.innerHeight * 0.5;
+const activeItem = "active";
 
 function scrollAnimation() {
   scrollSections.forEach((section) => {
@@ -7,9 +8,9 @@ function scrollAnimation() {
     const isSectionVisible = sectionTop - halfWindow < 0;
 
     if (isSectionVisible) {
-      section.classList.add("active");
+      section.classList.add(activeItem);
     } else {
-      section.classList.remove("active");
+      section.classList.remove(activeItem);
     }
   });
 }
@@ -20,11 +21,12 @@ function toggleMenu() {
   const menu = document.querySelector(".header-nav-menu");
   const links = document.querySelectorAll(".header-nav-menu li a");
 
-  openMenu.classList.toggle("active");
-  menu.classList.toggle("active");
+  openMenu.classList.toggle(activeItem);
+  menu.classList.toggle(activeItem);
   links.forEach((link) => {
     link.addEventListener("click", () => {
-      menu.classList.remove("active");
+      menu.classList.remove(activeItem);
+      openMenu.classList.remove(activeItem);
     });
   });
 }
